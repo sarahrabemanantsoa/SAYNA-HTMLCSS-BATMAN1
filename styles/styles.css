@@ -1,0 +1,360 @@
+/* Désactiver les styles  par défaut */
+*{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+*:focus{
+    outline: none;
+}
+
+/* Styles dans navigateurs */
+/* Styles des logos */
+.navigation{
+    display: flex;
+    justify-content: center;
+    column-gap: 70%;
+    margin:1% 10%;
+    padding: 3% 0%;
+}
+
+.navigation a{
+    font-weight: bold;
+    text-decoration: underline;
+    font-family:'Titre_H1';
+}
+
+/* Style général de la partie body */
+body{
+    background-color: black;
+    background-image: url("/images/Illustrations/Bathome1.png");
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 901px;
+    width: auto;
+    font-size: 15px;  
+}
+
+
+/* Styles pour la section introduction */
+.intro{
+    text-align: center;
+    margin: 200px 15px;
+}
+
+/* Styles des boutons avec effet hover */
+.intro .bouton button{
+    border: none;
+    justify-content: center;
+    padding: 10px 30px;
+    margin: 0% 4%;
+    column-gap: 1%;
+    background: linear-gradient(to right,#EDDEBF, #890008 );
+    opacity: 40%;
+    transition: .5s all ease-in-out;
+}
+
+.intro .bouton button:hover{
+    opacity: 100%;
+
+}
+/* Styles pour la flèche  */
+.fleche{
+    text-align: center;
+    margin-top: 30%;   
+}
+/* Styles pour les éléments dans scroll */
+#scroll{
+    text-align: right;
+    position: fixed;
+    top: 40%;
+    right: 3%;
+}
+
+#scroll img{
+    display: block;
+    padding: 20% 0%;
+}
+
+.reseau img{ 
+margin: auto;   
+}
+/* Styles pour les sections cinéma, nimesis, allies */
+.batman{
+    text-align: justify;
+    margin-top: 3%;
+}
+
+/* Styles pour les images en carte */
+.cartes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5% 10%; 
+}
+
+.cartes img{
+    width: 90%;
+    margin-bottom: 8%;
+    transition: .5s all ease-in-out;
+}
+
+.cartes img:hover{
+    transform: scale(1.1);
+}
+
+/* Styles dans la section nemesis */
+/* Styles pour l'image SVG en chauve souris */
+
+
+/* Styles dans la section allies */
+/* Styles pour l'image Btamna SVG */
+
+.Batmansvg{
+    position: absolute;
+    width: 50%;
+   
+}
+.Batmansvg img{
+    width: 40%;
+    margin: -21.5% 0 0 150%;
+}
+
+/* Styles pour l'image de justice leage */
+.cartleague{
+    margin: 2% 15% ;
+    justify-content: center;
+}
+.cartleague img{
+    width: 100%;
+}
+
+/* Styles pour la section multimedia */
+#multimedia{
+    margin: 0 15%;
+}
+.multi{
+    display: flex;
+    justify-content: center;
+    column-gap: 3%;
+    margin: 5% 0;
+    align-items: center;
+            
+}
+
+.synopsis{
+    display: flex;
+    background: linear-gradient(to bottom right, #4a4a40, #081d2a);
+    border-radius: 0 10px 10px 0;
+    margin:0 0 0 11% ;
+}
+
+.batman_begins img{
+    height: 100%;
+    max-height: 500px;
+}
+
+.action{
+    text-align: justify;
+    padding: 2px 5px;
+
+}
+/* Styles pour la artie bande annonce */
+.bande_annonce{
+    text-align: center;
+    padding: 10% 0%;
+}
+.bande_annonce video:hover{
+    filter: drop-shadow(1px 2px 15px #fff );
+    transition: .5s all ease-in-out;
+}
+
+/* Styles pour la section formulaire */
+#formulaire{
+    margin:auto; 
+    background: linear-gradient(to bottom right, #4a4a40, #081d2a); 
+    padding: 2% 30%;
+}
+
+/* Styles des inputs dans formulaire */
+.checkbox{
+    display: flex;
+    align-items: center;
+    
+}
+.checkbox input{
+    width: 25px;
+    height: 25px;
+    border: 2px solid blue;
+}
+input, select{
+    background: none;
+    font-size: 16px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 2%;
+}
+[value]{
+    background-color:grey;
+}
+/* Styles des boutons dans formulaire */
+.bouton2{
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+}
+.bouton2 button{
+    border: 1px solid ;
+    border-image: linear-gradient(to right, #EDDEBF, #19587D)1;
+    background: none;
+    padding: 2% 5%;  
+}
+
+.confirmer{
+    text-align: center;
+}
+.confirmer button{
+    
+    padding: 3% 15%;
+    margin-top: 5%;
+    background: linear-gradient(to right, #EDDEBF, #890008 ); 
+    border: none;
+    opacity: 40%;
+    transition: .5s all ease-in-out;
+}
+.confirmer button:hover{
+    opacity: 100%;
+}
+
+/* Styles pour la section replique */
+.citation{
+    margin: 10% 5%;
+}
+
+.guillements1{
+    text-align: left;
+    margin-left: 20%;
+}
+.textreplique{
+    text-align: center;
+}
+.guillements2{
+    text-align: right;
+    margin-right: 20%;
+}
+/* Styles pour les bordures en points de la replique */
+.bordure_point{
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5%;       
+}
+.point{
+    border: 2px solid #19587D;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;     
+}
+
+/* Styles pour le section footer */
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2%;
+}
+
+.copyright img{
+    width: 35px;
+    height: 35px;
+}
+
+.credit{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    column-gap: 2.5%;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+/* Styles pour les polices */
+/* installer les fonts téléchagés */
+
+@font-face {
+    font-family:'Titre_H1' ;
+    src: url('/fonts/Rajdhani-Medium.ttf');
+}
+@font-face {
+    font-family:'Titre_H2' ;
+    src: url('/fonts/SpaceGrotesk-Bold.ttf');
+}    
+@font-face {
+    font-family:'Sous_titre_text' ;
+    src: url('/fonts/SpaceGrotesk-Regular.ttf');
+}
+
+/* Appliquer les nouveaux fonts aux textes */
+h1{
+    font-family:'Titre_H1';
+    font-size: 36px;
+    font-size: medium;    
+}
+
+button{
+    font-family:'Titre_H1' ;
+    font-size: 20px;
+    font-size: medium;
+}
+
+h2{
+    font-family:'Titre_H2';
+    font-size: 12px;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Sous_titre_text';
+    font-size: 22px;
+    
+}
+
+p{
+    font-family: 'Sous_titre_text';
+    font-size: 18px;  
+}
+
+/* Pour mettre la page en responsive pour les différentes tailles des appareils */
+@media screen and (min-width: 0px){
+    body{
+        font-size: 6px;
+    }
+}
+@media screen and (min-width: 320px){
+    body{
+        font-size: 6px;
+    }
+}
+@media screen and (min-width: 320px){
+    body{
+        font-size: 8px;
+    }
+}
+@media screen and (min-width: 540px){
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 900px){
+    body{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 1000px){
+    body{
+        font-size: 12px;
+    }
+}
